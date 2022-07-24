@@ -42,10 +42,22 @@ body{
     padding-left: 5px;
     transition: all .3s;
 }
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 568px) {
     .header{
         justify-content: center;
         align-items: center;
+    }
+    .menu__li{
+    border: 2px solid #fff;
+
+    }
+    .logo{
+        border: 2px solid #fff;
+        font-size: 30px;
+    }
+}
+@media screen and (max-width: 900px) {
+    .header{
     }
     .menu__li{
     border: 2px solid #fff;
